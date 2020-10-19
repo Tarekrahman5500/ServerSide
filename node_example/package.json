@@ -15,7 +15,7 @@
   },
   "main": "index.js",
   "devDependencies": {},
-  "author": "",
+  "author": "Tarek Rahman",
   "license": "ISC",
-  "description": "\"Simple node example\""
+  "description": "Node HTTP Module Example"
 }
