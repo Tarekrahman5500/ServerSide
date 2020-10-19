@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd9fd612-2586-4e82-a741-13e038f90c22" name="Default Changelist" comment="" />
+    <list default="true" id="dd9fd612-2586-4e82-a741-13e038f90c22" name="Default Changelist" comment="Simple Node Module">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rectangle.js" beforeDir="false" afterPath="$PROJECT_DIR$/rectangle.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j6Vgo05sF4okCeO4RwdXADFUwP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,11 +43,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603124641743</updated>
-      <workItem from="1603124642775" duration="1046000" />
+      <workItem from="1603124642775" duration="3407000" />
     </task>
+    <task id="LOCAL-00001" summary="Simple Node Example">
+      <created>1603125714619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603125714619</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Simple Node Module">
+      <created>1603125910572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603125910572</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Simple Node Example" />
+    <MESSAGE value="Simple Node Module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple Node Module" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="800" y="434" key="Github.ShareDialog" timestamp="1603125687966">
+      <screen x="0" y="28" width="1920" height="1023" />
+    </state>
+    <state x="800" y="434" key="Github.ShareDialog/0.28.1920.1023@0.28.1920.1023" timestamp="1603125687966" />
+    <state x="682" y="151" width="545" height="775" key="Github.UntrackedFilesDialog" timestamp="1603125693869">
+      <screen x="0" y="28" width="1920" height="1023" />
+    </state>
+    <state x="682" y="151" width="545" height="775" key="Github.UntrackedFilesDialog/0.28.1920.1023@0.28.1920.1023" timestamp="1603125693869" />
   </component>
 </project>
