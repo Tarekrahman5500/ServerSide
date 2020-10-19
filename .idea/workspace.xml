@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd9fd612-2586-4e82-a741-13e038f90c22" name="Default Changelist" comment="Node Callbacks and Error Handling">
-      <change afterPath="$PROJECT_DIR$/node-http/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node-http/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_example/bin/www" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_example/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_example/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_example/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_example/public/stylesheets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_example/rectangle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_example/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_example/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_example/views/error.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_example/views/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_example/views/layout.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-http/public/aboutus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node-http/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rectangle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/error.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node-http/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-http/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +17,7 @@
       <list>
         <option value="HTTP Request" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,6 +34,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -77,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603124641743</updated>
-      <workItem from="1603124642775" duration="6363000" />
+      <workItem from="1603124642775" duration="8783000" />
     </task>
     <task id="LOCAL-00001" summary="Simple Node Example">
       <created>1603125714619</created>
@@ -100,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603128359079</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Node Callbacks and Error Handling">
+      <created>1603131975899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603131975899</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +110,9 @@
       <screen x="0" y="28" width="1920" height="1023" />
     </state>
     <state x="682" y="151" width="545" height="775" key="Github.UntrackedFilesDialog/0.28.1920.1023@0.28.1920.1023" timestamp="1603125693869" />
+    <state x="573" y="194" width="763" height="689" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1603131987277">
+      <screen x="0" y="28" width="1920" height="1023" />
+    </state>
+    <state x="573" y="194" width="763" height="689" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.28.1920.1023@0.28.1920.1023" timestamp="1603131987277" />
   </component>
 </project>
