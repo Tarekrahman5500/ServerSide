@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd9fd612-2586-4e82-a741-13e038f90c22" name="Default Changelist" comment="Node HTTP Example 2">
-      <change afterPath="$PROJECT_DIR$/node-express/routes/dishRouter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node-express/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node-express/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node-express/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node-express/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="dd9fd612-2586-4e82-a741-13e038f90c22" name="Default Changelist" comment="Node HTTP Example 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
