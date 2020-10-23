@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a0eecdb-8a23-4958-b134-b90797bf0722" name="Default Changelist" comment="Express Example">
-      <change afterPath="$PROJECT_DIR$/../node-http/.gitignore" afterDir="false" />
+    <list default="true" id="7a0eecdb-8a23-4958-b134-b90797bf0722" name="Default Changelist" comment="Express Serve Static Files">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603470147175</updated>
-      <workItem from="1603470148261" duration="1980000" />
+      <workItem from="1603470148261" duration="4504000" />
     </task>
     <task id="LOCAL-00001" summary="Express Example">
       <created>1603471588128</created>
@@ -72,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603471588128</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Express Serve Static Files">
+      <created>1603472168105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603472168105</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,12 +99,13 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Express Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Express Example" />
+    <MESSAGE value="Express Serve Static Files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Express Serve Static Files" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603470985325">
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603472162165">
       <screen x="0" y="28" width="1920" height="1023" />
     </state>
-    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.28.1920.1023@0.28.1920.1023" timestamp="1603470985325" />
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.28.1920.1023@0.28.1920.1023" timestamp="1603472162165" />
   </component>
 </project>
