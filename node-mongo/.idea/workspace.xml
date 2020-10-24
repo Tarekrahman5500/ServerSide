@@ -19,20 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2554909b-6f42-4c09-84d6-a4e1d925e5ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/node-mongo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="2554909b-6f42-4c09-84d6-a4e1d925e5ef" name="Default Changelist" comment="Node MongoDB Example 1">
+      <change afterPath="$PROJECT_DIR$/operations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mongodb/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mongodb/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/WiredTiger.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mongodb/data/index-6--282960106576197135.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/index-6--282960106576197135.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +71,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603562566712</updated>
-      <workItem from="1603562567785" duration="905000" />
+      <workItem from="1603562567785" duration="2796000" />
     </task>
+    <task id="LOCAL-00001" summary="Node MongoDB Example 1">
+      <created>1603563619705</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603563619705</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +99,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Node MongoDB Example 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node MongoDB Example 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="623" y="326" width="664" height="426" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603562718285">
