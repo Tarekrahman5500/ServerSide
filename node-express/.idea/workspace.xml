@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a0eecdb-8a23-4958-b134-b90797bf0722" name="Default Changelist" comment="Assignment 1">
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/.idea/ conFusionServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/bin/www" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/public/stylesheets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/views/error.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/views/index.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ conFusionServer/views/layout.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7a0eecdb-8a23-4958-b134-b90797bf0722" name="Default Changelist" comment="Assignment 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +53,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../conFusionServer" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerMachine" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -80,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603470147175</updated>
       <workItem from="1603470148261" duration="8570000" />
-      <workItem from="1603554813111" duration="545000" />
+      <workItem from="1603554813111" duration="1944000" />
     </task>
     <task id="LOCAL-00001" summary="Express Example">
       <created>1603471588128</created>
@@ -145,6 +132,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Assignment 1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="743" y="297" width="424" height="483" key="FileChooserDialogImpl" timestamp="1603555679071">
+      <screen x="0" y="28" width="1920" height="1023" />
+    </state>
+    <state x="743" y="297" width="424" height="483" key="FileChooserDialogImpl/0.28.1920.1023@0.28.1920.1023" timestamp="1603555679071" />
     <state x="435" y="175" width="1078" height="730" key="SettingsEditor" timestamp="1603555011455">
       <screen x="0" y="28" width="1920" height="1023" />
     </state>
