@@ -19,13 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2554909b-6f42-4c09-84d6-a4e1d925e5ef" name="Default Changelist" comment="Node MongoDB Example 1">
-      <change afterPath="$PROJECT_DIR$/operations.js" afterDir="false" />
+    <list default="true" id="2554909b-6f42-4c09-84d6-a4e1d925e5ef" name="Default Changelist" comment="Node MongoDB Example 2">
+      <change afterPath="$PROJECT_DIR$/../mongodb/data/diagnostic.data/metrics.interim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mongodb/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mongodb/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mongodb/data/index-5--282960106576197135.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/index-5--282960106576197135.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mongodb/data/index-6--282960106576197135.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/index-6--282960106576197135.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operations.js" beforeDir="false" afterPath="$PROJECT_DIR$/operations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603562566712</updated>
-      <workItem from="1603562567785" duration="2796000" />
+      <workItem from="1603562567785" duration="4632000" />
     </task>
     <task id="LOCAL-00001" summary="Node MongoDB Example 1">
       <created>1603563619705</created>
@@ -80,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603563619705</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Node MongoDB Example 2">
+      <created>1603565569799</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603565569799</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,12 +108,17 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Node MongoDB Example 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Node MongoDB Example 1" />
+    <MESSAGE value="Node MongoDB Example 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node MongoDB Example 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="623" y="326" width="664" height="426" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603562718285">
       <screen x="0" y="28" width="1920" height="1023" />
     </state>
     <state x="623" y="326" width="664" height="426" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1920.1023@0.28.1920.1023" timestamp="1603562718285" />
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603567128511">
+      <screen x="0" y="28" width="1920" height="1023" />
+    </state>
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.28.1920.1023@0.28.1920.1023" timestamp="1603567128511" />
   </component>
 </project>
