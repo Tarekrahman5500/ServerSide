@@ -19,14 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2554909b-6f42-4c09-84d6-a4e1d925e5ef" name="Default Changelist" comment="Node MongoDB Example 2">
-      <change afterPath="$PROJECT_DIR$/../mongodb/data/diagnostic.data/metrics.interim" afterDir="false" />
+    <list default="true" id="2554909b-6f42-4c09-84d6-a4e1d925e5ef" name="Default Changelist" comment="Node Callback Hell and Promises">
+      <change afterPath="$PROJECT_DIR$/../node-mongoose/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-mongoose/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-mongoose/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-mongoose/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-mongoose/.idea/node-mongoose.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-mongoose/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-mongoose/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-mongoose/models/dishes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../node-mongoose/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conFusionServer/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mongodb/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mongodb/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mongodb/data/diagnostic.data/metrics.interim" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mongodb/data/index-5--282960106576197135.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/index-5--282960106576197135.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mongodb/data/index-6--282960106576197135.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/index-6--282960106576197135.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mongodb/data/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/mongod.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mongodb/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/../mongodb/data/sizeStorer.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operations.js" beforeDir="false" afterPath="$PROJECT_DIR$/operations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +66,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mongo" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.12.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.2" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.3" />
+    <property name="js.ns.project" value="true" />
+    <property name="js.ns.project.flavor" value="JavaScript" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -72,7 +86,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603562566712</updated>
-      <workItem from="1603562567785" duration="4632000" />
+      <workItem from="1603562567785" duration="4753000" />
+      <workItem from="1603728608019" duration="18000" />
+      <workItem from="1603728633439" duration="825000" />
+      <workItem from="1603729799009" duration="70000" />
+      <workItem from="1603734786494" duration="24000" />
+      <workItem from="1603734940022" duration="13000" />
+      <workItem from="1603735107540" duration="19000" />
+      <workItem from="1603737916014" duration="45000" />
     </task>
     <task id="LOCAL-00001" summary="Node MongoDB Example 1">
       <created>1603563619705</created>
@@ -88,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603565569799</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Node Callback Hell and Promises">
+      <created>1603567305907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603567305907</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,21 +132,31 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Node MongoDB Example 1" />
     <MESSAGE value="Node MongoDB Example 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Node MongoDB Example 2" />
+    <MESSAGE value="Node Callback Hell and Promises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Node Callback Hell and Promises" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="201" width="800" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603729866804">
+      <screen x="0" y="28" width="1920" height="1023" />
+    </state>
+    <state x="555" y="201" width="800" height="676" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.28.1920.1023@0.28.1920.1023" timestamp="1603729866804" />
     <state x="623" y="326" width="664" height="426" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603562718285">
       <screen x="0" y="28" width="1920" height="1023" />
     </state>
     <state x="623" y="326" width="664" height="426" key="#com.intellij.fileTypes.FileTypeChooser/0.28.1920.1023@0.28.1920.1023" timestamp="1603562718285" />
-    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603567128511">
+    <state width="251" height="195" key="DatabaseViewActions_Filter" timestamp="1603729449384">
       <screen x="0" y="28" width="1920" height="1023" />
     </state>
-    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.28.1920.1023@0.28.1920.1023" timestamp="1603567128511" />
+    <state width="251" height="195" key="DatabaseViewActions_Filter/0.28.1920.1023@0.28.1920.1023" timestamp="1603729449384" />
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603567309666">
+      <screen x="0" y="28" width="1920" height="1023" />
+    </state>
+    <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/0.28.1920.1023@0.28.1920.1023" timestamp="1603567309666" />
   </component>
 </project>
