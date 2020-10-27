@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd9fd612-2586-4e82-a741-13e038f90c22" name="Default Changelist" comment="Node HTTP Example 2" />
+    <list default="true" id="dd9fd612-2586-4e82-a741-13e038f90c22" name="Default Changelist" comment="Node HTTP Example 2">
+      <change afterPath="$PROJECT_DIR$/node-mongoose/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node-mongo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -79,6 +83,7 @@
       <updated>1603124641743</updated>
       <workItem from="1603124642775" duration="9094000" />
       <workItem from="1603468845227" duration="3873000" />
+      <workItem from="1603807979136" duration="119000" />
     </task>
     <task id="LOCAL-00001" summary="Simple Node Example">
       <created>1603125714619</created>
@@ -131,6 +136,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -141,10 +147,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Node HTTP Example 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="738" y="280" width="424" height="517" key="FileChooserDialogImpl" timestamp="1603470144294">
-      <screen x="0" y="28" width="1920" height="1023" />
+    <state x="738" y="289" width="424" height="517" key="FileChooserDialogImpl" timestamp="1603808096198">
+      <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="738" y="280" width="424" height="517" key="FileChooserDialogImpl/0.28.1920.1023@0.28.1920.1023" timestamp="1603470144294" />
+    <state x="738" y="289" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1603808096198" />
     <state x="800" y="434" key="Github.ShareDialog" timestamp="1603125687966">
       <screen x="0" y="28" width="1920" height="1023" />
     </state>
@@ -153,6 +160,22 @@
       <screen x="0" y="28" width="1920" height="1023" />
     </state>
     <state x="682" y="151" width="545" height="775" key="Github.UntrackedFilesDialog/0.28.1920.1023@0.28.1920.1023" timestamp="1603125693869" />
+    <state width="1899" height="278" key="GridCell.Tab.0.bottom" timestamp="1603808098104">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1603808098104" />
+    <state width="1899" height="278" key="GridCell.Tab.0.center" timestamp="1603808098104">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1603808098104" />
+    <state width="1899" height="278" key="GridCell.Tab.0.left" timestamp="1603808098104">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1603808098104" />
+    <state width="1899" height="278" key="GridCell.Tab.0.right" timestamp="1603808098104">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="278" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1603808098104" />
     <state x="555" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1603134663210">
       <screen x="0" y="28" width="1920" height="1023" />
     </state>
