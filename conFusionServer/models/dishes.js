@@ -58,6 +58,7 @@ const dishSchema = new Schema({
 }, {
     timestamps: true
 });
+// dish is name of the schema it store as a collection map by mangodb and name plural
 const Dishes = mongoose.model('Dish', dishSchema);
 
 module.exports = Dishes;
