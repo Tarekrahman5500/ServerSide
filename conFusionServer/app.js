@@ -12,6 +12,8 @@ const promoRouter = require("./routes/promoRouter");
 const leaderRouter = require("./routes/leaderRouter");
 const session = require("express-session");
 const FileStore = require("session-file-store")(session);
+const passport = require('passport');
+const authenticate = require('./authenticate');
 
 const mongoose = require("mongoose");
 const Dishes = require("./models/dishes");
@@ -46,26 +48,22 @@ app.use(
         store: new FileStore()
     })
 );
+app.use(passport.initialize());
+app.use(passport.session());
+
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-function auth (req, res, next) {
+function auth(req, res, next) {
     let err;
-    console.log(req.session);
 
-    if(!req.session.user) {
+    if (!req.user) {
         err = new Error('You are not authenticated!');
         err.status = 403;
         return next(err);
-    }
-    else {
-        if (req.session.user === 'authenticated') next();
-        else {
-            err = new Error('You are not authenticated!');
-            err.status = 403;
-            return next(err);
-        }
+    } else {
+        next();
     }
 }
 
@@ -78,7 +76,7 @@ app.use("/promotions", promoRouter);
 app.use("/leaders", leaderRouter);
 
 /// catch 404 and forwarding to error handler
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
     var err = new Error("Not Found");
     err.status = 404;
     next(err);
@@ -89,7 +87,7 @@ app.use(function(req, res, next) {
 // development error handler
 // will print stacktrace
 if (app.get("env") === "development") {
-    app.use(function(err, req, res, next) {
+    app.use(function (err, req, res, next) {
         res.status(err.status || 500);
         res.render("error", {
             message: err.message,
@@ -100,7 +98,7 @@ if (app.get("env") === "development") {
 
 // production error handler
 // no stacktraces leaked to user
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
     // next is the last argument in above function
     // set locals, only providing error in development
     res.locals.message = err.message;
