@@ -1,6 +1,6 @@
 const express = require("express");
 const path = require("path");
-const favicon = require("static-favicon");
+const favicon = require("serve-favicon");
 const logger = require("morgan");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
@@ -30,11 +30,17 @@ connect.then(
     }
 );
 
+app.all('*', (req, res, next) => {
+    if(req.secure) return next();
+    else res.redirect(307, 'https://' + req.hostname + ':' + app.get('secPort') + req.url);
+})
+
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "jade");
 
-app.use(favicon());
+//app.use(favicon(__dirname + '/public/images/favicon.ico'));
+//app.use(favicon());
 app.use(logger("dev"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
@@ -60,7 +66,7 @@ function auth (req, res, next) {
     console.log(req.user);
 
     if (!req.user) {
-        var err = new Error('You are not authenticated!');
+        let err = new Error('You are not authenticated!');
         err.status = 403;
         next(err);
     }
@@ -79,7 +85,7 @@ app.use("/leaders", leaderRouter);
 
 /// catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
-    var err = new Error("Not Found");
+    let err = new Error("Not Found");
     err.status = 404;
     next(err);
 });
