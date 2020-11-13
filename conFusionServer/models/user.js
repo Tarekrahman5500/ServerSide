@@ -11,13 +11,13 @@ const User = new Schema({
         type: String,
         default: ''
     },
+    facebookId: String,
     admin: {
         type: Boolean,
         default: false
-    }
+    },
 });
 
 User.plugin(passportLocalMongoose);
-
 
 module.exports = mongoose.model('User', User);
