@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-
 require('mongoose-currency').loadType(mongoose);
 const Currency = mongoose.Types.Currency;
 
@@ -52,13 +51,12 @@ const dishSchema = new Schema({
     },
     featured: {
         type: Boolean,
-        default: false
+        default:false      
     },
-    comments: [commentSchema]
+    comments:[commentSchema]
 }, {
     timestamps: true
 });
-// dish is name of the schema it store as a collection map by mangodb and name plural
-const Dishes = mongoose.model('Dish', dishSchema);
 
+const Dishes = mongoose.model('Dish', dishSchema);
 module.exports = Dishes;

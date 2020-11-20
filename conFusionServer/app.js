@@ -4,13 +4,13 @@ const favicon = require("serve-favicon");
 const logger = require("morgan");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
-const indexRouter = require("./routes/index");
-const usersRouter = require("./routes/users");
-const app = express();
+const index = require("./routes/index");
+const users = require("./routes/users");
 const dishRouter = require("./routes/dishRouter");
 const promoRouter = require("./routes/promoRouter");
 const leaderRouter = require("./routes/leaderRouter");
 const uploadRouter = require('./routes/uploadRouter');
+const favoriteRouter = require('./routes/favoriteRouter');
 const session = require("express-session");
 const FileStore = require("session-file-store")(session);
 const passport = require('passport');
@@ -31,71 +31,48 @@ connect.then(
     }
 );
 
+// Application
+const app = express();
+
 app.all('*', (req, res, next) => {
-    if(req.secure) return next();
+    if (req.secure) return next();
     else res.redirect(307, 'https://' + req.hostname + ':' + app.get('secPort') + req.url);
-})
+    //res.redirect(307, `https://${req.hostname}:${app.get('secPort')}${req.url}`);
+});
 
-// view engine setup
-app.set("views", path.join(__dirname, "views"));
-app.set("view engine", "jade");
+// View engine setup
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'jade');
 
-//app.use(favicon(__dirname + '/public/images/favicon.ico'));
-//app.use(favicon());
-app.use(logger("dev"));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded());
-// app.use(cookieParser('12345-67890-09876-54321'));
+// App Middlewares
+//app.use( favicon( path.join(__dirname, 'public', 'favicon.ico')));
+app.use( logger('dev'));
+app.use( bodyParser.json());
+app.use( bodyParser.urlencoded({ extended: false }));
+app.use( express.static( path.join(__dirname, 'public')));
 
-app.use(
-    session({
-        name: "session-id",
-        secret: "12345-67890-09876-54321",
-        saveUninitialized: false,
-        resave: false,
-        store: new FileStore()
-    })
-);
+// Authentication Middleware
+app.use( passport.initialize());
 
-app.use(passport.initialize());
-app.use(passport.session());
+// Mount Routes
+app.use('/', index);
+app.use('/users', users);
+app.use('/dishes', dishRouter);
+app.use('/promotions', promoRouter);
+app.use('/leaders', leaderRouter);
+app.use('/imageUpload', uploadRouter);
+app.use('/favorite', favoriteRouter);
 
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-
-function auth (req, res, next) {
-    console.log(req.user);
-
-    if (!req.user) {
-        let err = new Error('You are not authenticated!');
-        err.status = 403;
-        next(err);
-    }
-    else {
-        next();
-    }
-}
-
-app.use(auth);
-
-app.use(express.static(path.join(__dirname, "public")));
-
-app.use("/dishes", dishRouter);
-app.use("/promotions", promoRouter);
-app.use("/leaders", leaderRouter);
-app.use('/imageUpload',uploadRouter);
-
-/// catch 404 and forwarding to error handler
+// Catch 404 and forwarding to error handler
 app.use(function(req, res, next) {
-    let err = new Error("Not Found");
+    const err = new Error("Not Found");
     err.status = 404;
     next(err);
 });
 
-/// error handlers
+// Error handlers
 
-// development error handler
-// will print stacktrace
+// Development error handler: will print stacktrace.
 if (app.get("env") === "development") {
     app.use(function(err, req, res, next) {
         res.status(err.status || 500);
@@ -106,7 +83,7 @@ if (app.get("env") === "development") {
     });
 }
 
-// production error handler
+// Production error handler
 // no stacktraces leaked to user
 app.use(function(err, req, res, next) {
     // next is the last argument in above function
@@ -122,4 +99,5 @@ app.use(function(err, req, res, next) {
     });
 });
 
+// Export module
 module.exports = app;
