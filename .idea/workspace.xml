@@ -20,8 +20,142 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd9fd612-2586-4e82-a741-13e038f90c22" name="Default Changelist" comment="Node HTTP Example 2">
-      <change afterPath="$PROJECT_DIR$/node-mongoose/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/about/about.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/about/about.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/about/about.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/about/about.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/animations/app.animation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/app-routing/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/app-routing/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/app.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/contact/contact.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/contact/contact.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/contact/contact.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/contact/contact.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/directives/highlight.directive.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/directives/highlight.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/dishdetail/dishdetail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/dishdetail/dishdetail.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/dishdetail/dishdetail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/dishdetail/dishdetail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/favorites/favorites.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/favorites/favorites.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/favorites/favorites.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/favorites/favorites.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/footer/footer.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/footer/footer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/header/header.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/header/header.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/home/home.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/home/home.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/login/login.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/menu/menu.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/menu/menu.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/menu/menu.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/menu/menu.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/auth.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/auth.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/dish.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/dish.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/favorite.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/favorite.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/feedback.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/feedback.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/leader.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/leader.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/process-httpmsg.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/process-httpmsg.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/promotion.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/services/promotion.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/shared/baseurl.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/shared/comment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/shared/dish.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/shared/favorite.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/shared/feedback.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/shared/leader.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/shared/promotion.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/shared/restConfig.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/app/shared/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/assets/images/alberto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/assets/images/buffet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/assets/images/elaicheesecake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/assets/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/assets/images/uthappizza.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/assets/images/vadonut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/assets/images/zucchipakoda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/conFusion-Angular4/src/typings.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/sessions/GCo19Ef--7ZoP3Dks7gx-lXmLF13UjAd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/sessions/I8DbEjDjQy9I8Lg5O8-2IjNEtY5xS9O3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/sessions/L9IaFnnQW36OHTCJh2tXEpTOdCD8tvs4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/sessions/OebMGcGSbWM20JeSMHUba5WUEsu6nH2W.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/sessions/PZh-R7XiW2wXyrucWX-ODyBOJ2aqlqu9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/sessions/UUHRynx_7uIAOEZXoh_5f8m3g8hsf9M5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/sessions/cIw3JO0x0uX5yksxPPRouo7emcXLjSZn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/sessions/qv9ZHyCMTb2bC7d2yjFKMt6d2XTJfjzS.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/sessions/vJNSSQcZeHCss8nSmZMvvBd_mmY20nkp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conFusionServer/sessions/znaG6GxMW-tjTcFMBb8EHqz0PFiOO49W.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/data/collection-4--8995800812545754370.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/data/diagnostic.data/metrics.2020-11-03T20-16-19Z-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/data/index-5--8995800812545754370.wt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongodb/data/index-6--8995800812545754370.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/authenticate.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/authenticate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/models/dishes.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/models/dishes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/models/favorite.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/models/favorite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/models/leaders.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/models/leaders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/routes/cors.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/routes/cors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/routes/dishRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/routes/dishRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/routes/favoriteRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/routes/favoriteRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/routes/leaderRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/routes/leaderRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/routes/promoRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/routes/promoRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/routes/uploadRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/routes/uploadRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conFusionServer/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/conFusionServer/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/WiredTiger.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/data/WiredTiger.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/data/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/data/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/data/_mdb_catalog.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/collection-2--8995800812545754370.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/data/collection-2--8995800812545754370.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/collection-4--282960106576197135.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/diagnostic.data/metrics.2020-10-24T17-04-11Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/data/diagnostic.data/metrics.interim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/index-3--8995800812545754370.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/data/index-3--8995800812545754370.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/index-5--282960106576197135.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/index-6--282960106576197135.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/data/mongod.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/data/sizeStorer.wt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +193,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node-mongo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/conFusionServer" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -84,6 +218,10 @@
       <workItem from="1603124642775" duration="9094000" />
       <workItem from="1603468845227" duration="3873000" />
       <workItem from="1603807979136" duration="119000" />
+      <workItem from="1604349811622" duration="26000" />
+      <workItem from="1604434622670" duration="12000" />
+      <workItem from="1605874649577" duration="116000" />
+      <workItem from="1605877005859" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="Simple Node Example">
       <created>1603125714619</created>
@@ -147,11 +285,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="Node HTTP Example 2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="738" y="289" width="424" height="517" key="FileChooserDialogImpl" timestamp="1603808096198">
+    <state x="738" y="289" width="424" height="517" key="FileChooserDialogImpl" timestamp="1605877039946">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="738" y="280" width="424" height="517" key="FileChooserDialogImpl/0.28.1920.1023@0.28.1920.1023" timestamp="1603470144294" />
-    <state x="738" y="289" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1603808096198" />
+    <state x="738" y="289" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1605877039946" />
     <state x="800" y="434" key="Github.ShareDialog" timestamp="1603125687966">
       <screen x="0" y="28" width="1920" height="1023" />
     </state>

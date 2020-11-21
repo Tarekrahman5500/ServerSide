@@ -1,11 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+
 const mongoose = require('mongoose');
+
 const Leaders = require('../models/leaders');
-const leaderRouter = express.Router();
+const authenticate = require('../authenticate');
 const cors = require('./cors');
 
-const authenticate = require('../authenticate');
+const leaderRouter = express.Router();
 
 leaderRouter.use(bodyParser.json());
 
@@ -79,5 +81,6 @@ leaderRouter.route('/:leaderId')
     }, (err) => next(err))
     .catch((err) => next(err));
 });
+
 
 module.exports = leaderRouter;

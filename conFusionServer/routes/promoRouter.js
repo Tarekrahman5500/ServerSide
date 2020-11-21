@@ -1,11 +1,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+
 const Promotions = require('../models/promotions');
-const promoRouter = express.Router();
+const authenticate = require('../authenticate');
 const cors = require('./cors');
 
-const authenticate = require('../authenticate');
+
+const promoRouter = express.Router();
 
 promoRouter.use(bodyParser.json());
 
